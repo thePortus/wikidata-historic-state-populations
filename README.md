@@ -31,5 +31,5 @@ Either...
 1. Copy the query from the `data_files/1_query_wikidata.rq` file
 2. Head to [Wikidata Query](query.wikidata.org), paste the query, run the query
 3. Save the file in this directory
-4. Run the python script in this directory `python 2_process_data.py -i INPUT_PATH -o OUTPUT_PATH` replating INPUT_PATH with the name of your saved Wikidata results and OUTPUT_PATH with whatever you would like to save the file as
+4. Run the python script in this directory `python 2_process_data.py -i INPUT_PATH -o OUTPUT_PATH` replacing INPUT_PATH with the name of your saved Wikidata results and OUTPUT_PATH with whatever you would like to save the file as
 5. Use the saved results with full yearly population for your data needs
