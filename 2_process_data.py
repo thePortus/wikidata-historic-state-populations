@@ -244,14 +244,26 @@ def parse_arguments():
     parser.add_argument(
         '-i', '--input',
         nargs=1,
-        default=['1_wikidata_query_results.csv'],
+        default=[
+            os.path.join(
+                FOLDER_PATH,
+                'data_files',
+                '1_wikidata_query_results.csv'
+            )
+        ],
         dest='input_filename',
         help='Name of the input file containing results of Wikidata query.'
     )
     parser.add_argument(
         '-o', '--output',
         nargs=1,
-        default=['2_wikidata_processed_results.csv'],
+        default=[
+            os.path.join(
+                FOLDER_PATH,
+                'data_files',
+                '2_wikidata_processed_results.csv'
+            )
+        ],
         dest='output_filename',
         help='Name of the out file containing processed population data.'
     )
